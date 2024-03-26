@@ -1,0 +1,42 @@
+.fullvh{
+        height: 90vh;
+    }
+    .center{
+        display: grid;
+        place-items: center;
+    }
+      [print] {
+    visibility: hidden;
+    display:none;
+  }
+@media print {
+    [print]{
+    display: block;
+    visibility: visible;
+    }
+     [no-print] {
+    visibility: hidden;
+    display:none;
+  }
+  .container{
+    margin: 0;
+    padding: 0;
+    width: 100% !important;
+  }
+    body,html { margin-top:0%;
+   display:block;
+   height:100%;}
+}
+.text-theme{
+    color : var(--theme-color);
+}
+.bg-theme{
+    background-color: var(--theme-color);
+}
+.btn-theme{
+    color: white;
+    background-color: var(--theme-color);
+    &:hover{
+        background-color: var(--theme-color-hover);
+    }
+}
