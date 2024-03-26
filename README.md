@@ -1,5 +1,7 @@
 # donation-system-ci4
-a simple donation with razorpay payment gateway inetgration
+a simple donation with razorpay payment gateway integration
+
+Configure .env for database and name and themes 
 
 Steps to follow
 
